@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="Attractor Panel" styleClass="attractor-panel-label"/>
+        <TextField fx:id="formulaTFX" promptText="formula x"/>
+        <TextField fx:id="formulaTFY" promptText="formula y"/>
+        <HBox>
+            <TextField fx:id="probabilityWeightTF" promptText="probability Weight"/>
+            <TextField fx:id="divisionCoefficientTF" promptText="divisionCoefficient y"/>
+        </HBox>
+        <HBox>
+            <TextField fx:id="radiusTF" promptText="radius"/>
+            <TextField fx:id="hexTF" promptText="hex"/>
+            <TextField fx:id="iterTF" promptText="iter count"/>
+        </HBox>
+    </children>
+</VBox>

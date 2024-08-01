@@ -1,0 +1,50 @@
+/* StartButton.css */
+.grid-pane {
+  -fx-background-color: #000000;
+}
+
+.start-button {
+  -fx-background-color: #003248; /* Цвет фона */
+  -fx-text-fill: #f5f9ea; /* Цвет текста */
+  -fx-border-color: #001933; /* Цвет бордюра */
+  -fx-border-width: 2px; /* Ширина бордюра */
+  -fx-font-size: 16px; /* Размер шрифта */
+  -fx-padding: 10px; /* Отступы внутри кнопки */
+  -fx-alignment: center;
+}
+
+.start-button:hover {
+  -fx-background-color: #001933;
+}
+
+.settings-control-button {
+  -fx-background-color: #003248;
+  -fx-text-fill: #f5f9ea;
+  -fx-border-color: #001933;
+  -fx-border-width: 2px;
+  -fx-alignment: center;
+}
+
+.settings-control-button:hover {
+  -fx-background-color: #001933;
+}
+
+.settings-panel {
+  -fx-background-color: #c1d0a4;
+}
+
+.attractor-panel-label {
+  -fx-text-fill: #001933;
+  -fx-font-size: 16px;
+}
+
+.text-field {
+  -fx-background-color: #f5f9ea;
+  -fx-text-fill: #000000;
+  -fx-border-color: #001933;
+  -fx-border-width: 2px;
+}
+
+.pane {
+    -fx-background-color: #FFFF00;
+}

@@ -1,0 +1,79 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.swa
+*.class
+*.log
+*.d
+hs_err_pid*
+replay_pid*
+*.java
+
+# Scala
+*.class
+*.log
+*.intellij
+*.idea
+
+# SBT
+dist/
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+
+# Scala-IDE specific
+.cache-main
+.scala_dependencies
+.worksheet
+
+# IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+*.visualstudio/
+*.ionide/
+.vscode-test/
+
+# Logs
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+ehthumbs_vista.db
+
+# Windows
+*.exe
+*.dll
+*.com
+*.bat
+*.cmd
+*.msi
+*.ps1
+*.psd1
+*.psm1
+*.msp
+*.lnk
+
+# macOS
+*.dmg
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
